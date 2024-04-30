@@ -213,98 +213,91 @@ footer {
 }
 
 
-
 /*Media Query Mobile view 320px*/
 @media (max-width: 320px) {
-.container{
-    width: 100%;
-    display: flex;
-}
-
+    .container {
+      width: 100%;
+      display: flex;
+    }
+  
     /* body styles the body of the document*/
-body {
-    width: 100%;
-    background-image: url(images/jellyfish.png);
-    background-size: cover;
-    background-position:center;
-    background-attachment:fixed;
-    border-radius: 10px;
-    letter-spacing: 0.2em;
-    font-size: 0.8em;
-}
-
-nav{
-    display: flex;
-    flex-direction:column;
-}
-
-ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display:inline-block;
-    justify-content: center;
-    align-items: center;
-    /*justify-content: center;*/
-    /*align-items: center;*/
-}
-
-a {
-    display: block;
-    font-size: 5.5px;
-}
-
-h1 {
-    font-size: 30px;
-}
-
-h2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center center;
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 40px;
-}
-
-p {
-    font-size: 15px;
-}
-
-.search input {
-    display: flexbox; 
-    font-size: 20px;
-}
-
-button {
-    font-size: 20px;
-    font-family: "Charm";
-}
-
+    body {
+      width: 100%;
+      background-image: url(images/jellyfish.png);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      border-radius: 10px;
+      letter-spacing: 0.2em;
+      font-size: 0.8em;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    ul, li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    a {
+      display: block;
+      font-size: 5.5px;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  
+    h2 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 30px;
+    }
+  
+    h3 {
+      font-size: 40px;
+    }
+  
+    p {
+      font-size: 15px;
+    }
+  
+    .search input {
+      display: flex;
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 20px;
+    }
+  
     /*section is the container that gif images are displayed*/
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    padding: 20px;
-    /*border: 3px solid green;*/
-    /*height: 150px;
-    width: 250px;*/
-}
-
-footer {
-    background-color: black;
-    justify-content:center;
-    position: relative;
-    top: 10rem;
-    align-items: center;
-    display:block;
-}
-}
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+      padding: 20px;
+    }
+  
+    footer {
+      background-color: black;
+      justify-content: center;
+      position: relative;
+      top: 10rem;
+      align-items: center;
+      display: block;
+    }
+  }
 
 
 /* Utility Classes */
