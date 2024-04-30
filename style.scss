@@ -1,0 +1,124 @@
+body
+    background-color: #e2cce2
+    letter-spacing: 0.2em
+    font-size: 0.8em
+
+title
+    font-family: 'Rock Salt'
+
+nav 
+    background-color:
+    font-size: 18px
+
+ul, li
+    margin: 5px
+    padding: 8px
+    list-style: none
+    display: flex
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+a
+    padding: 5px
+    border: solid 2px purple
+    border-radius: 8px 0 8px 0
+    background: lavender
+    text-decoration: none
+    color: black
+
+h1
+    margin: 0px
+    color: 0px 0px 5px 5px rgba(0,0,1,0.75)
+    font-family: 'Rock Salt'
+    font-size: 65px
+    /*background-image: url(images/sparkle.png);*/
+
+/*.navdiv {
+background-image: url(images/sparkle.png)
+}
+/* this is the element that gets the menu item beside the title*/
+nav
+    display:flex
+justify-content: space-around
+background-color: #e2cce2
+
+
+.div-h2
+    justify-content: center
+
+h2
+    display: flex
+    justify-content: right
+    align-items:center
+    margin: 10px
+    font-family: 'Charm'
+    font-size: 35px
+
+p
+    font-size: 15px
+    margin: 10px auto
+    padding: 25px
+
+input[type="text"], input
+    height: 50px
+    width: 300px
+    font-family: 'charm'
+    font-size: 20px
+    border: 2px solid purple
+    display: flex
+
+button
+    margin: 10px
+    padding: 8px
+    background-color: grey
+    border: 2px solid purple
+    border-radius: 5px
+    font-size: 20px
+
+.gif-image 
+    width: 195px
+    height: 195px
+    margin: 20px
+    padding: 10px
+    border-radius: 15px
+    box-shadow: 0px 0px 5px 5px rgba(15,100,90,0.75)
+
+footer 
+    justify-content: center
+    align-items: center
+    display: flex
+
+/* Utility Classes */
+.animate 
+    animation-duration: 1s
+    animation-fill-mode:  both
+
+.animate--infinite 
+    animation-iteration-count: infinite
+
+.animate--delay-1s
+    animation-delay: 1s
+
+.animate--fast
+    animation-duration: 0.6s
+
+
+.animate--slow
+    animation-duration: 3s
+
+@keyframes rotate
+                from
+                    transform: rotate(0)
+                to
+                    transform: rotate(360deg)
+
+.rotate
+        animation-name: rotate
+        animation-timing-function: linear
+        animation-iteration-count: infinite
+
+div
+    align-items: center
+    background-color: #e2cce2
+    display: flex
+    justify-content: space-between
