@@ -1,6 +1,12 @@
 html{
     /*margin: 2px 2px 0px 2px;*/
-    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding: 0;
     background-color: darkmagenta;
     background-position: cover;
@@ -12,11 +18,20 @@ html{
 body {
     background-image: url(images/jellyfish.png);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
     border-radius: 10px;
+    margin-top: 30px;
     letter-spacing: 0.2em;
-    font-size: 0.8em;
+    /*font-size: 0.8em;*/
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 /*title styles the html page title*/
@@ -34,12 +49,19 @@ div {
     justify-content: space-between;
 }
 
+.sparkle {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    width: 1200px;
+}
+
 /*section is the container that gif images are displayed*/
 section {
     display: inline-block;
     align-items: center;
-    justify-content: center;
-    margin: 10px;
+    justify-content: right;
+    margin: 20px;
     padding: 20px;
     /*border: 3px solid green;*/
     /*height: 150px;
@@ -54,8 +76,6 @@ ul, li {
     display:flex;
     justify-content: center;
     align-items: center;
-    /*justify-content: center;*/
-    /*align-items: center;*/
 }
 
 /*a styles the unordered list items in the navigation bar*/
@@ -69,18 +89,6 @@ a {
     color: black;
     text-shadow: 0 0 5px #037A90, 0 0 10px #037A90, 0 0 15px #037A90, 0 0 20px #FF6600, 0 0 30px #FF6600, 0 0 40px #FF6600, 0 0 55px #FF6600, 0 0 75px #FF6600;
     font-weight: 500; 
-}
-
-
-/*.dvi-h1 styles the div that holds the document title and navigation menu*/
-.div-h1 {
-    /*margin: 10px 0 5px 0;
-    padding: 0 12px 0;*/
-    display:flex;
-    justify-content: space-around;
-    /*background-image:url(images/mermaid-tail.png);*/
-    background-size: cover;
-    background-position: center center;
 }
 
 /*h1 styles all elements attached to the title at that size*/
@@ -106,13 +114,6 @@ nav {
     align-content: center;
 }
 
-/*.div-h2 {
-    justify-content: center;
-    /*margin: 8px 5px 8px 5p
-    border: 3px solid #0FF0FC;
-    box-shadow: 0px 0px 5px 5px rgba(15,240,252,0.75);
-}*/
-
 h2 {
     display: flex;
     flex-wrap: wrap;
@@ -132,6 +133,7 @@ h3 {
     display: flex;
     color: #ffffff;
     font-size: 55px;
+    font-weight: 700;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF6600, 0 0 30px #FF6600, 0 0 40px #FF6600, 0 0 55px #FF6600, 0 0 75px #FF6600;
 
 }
@@ -140,8 +142,11 @@ p {
     color: blue;
     font-size: 18px;
     font-weight: 500;
-    margin: 10px ;
+    margin: 5px ;
     padding: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     background-color: rgba(226, 214, 226, 0.3);
     border-radius: 15px;
 }
@@ -150,7 +155,7 @@ p {
     display: flex;
     margin: 0;
     font-family: 'Charm';
-    font-size: 20px;
+    font-size: 25px;
 
 }
 
@@ -162,22 +167,21 @@ p {
     /*border: 3px solid yellow;*/
 }
 
+input {
+    font-size: 35px;
+    font-family: 'Charm';
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 label {
     margin: 0 20px 0 0;
-    font-size: 40px;
+    color: black;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF6600, 0 0 30px #FF6600, 0 0 40px #FF6600, 0 0 55px #FF6600, 0 0 75px #FF6600;
+    font-size: 30px;
     font-family: 'Charm';
-    display: space-between;
-}
-.search input {
-    padding: 10px;
-    margin-right: 10px;
-    font-family: 'Charm';
-    font-size: 25px;
-    border: 2px solid purple;
-    background: #037A90;
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
+    display: center;
 }
 
 button {
@@ -188,9 +192,13 @@ button {
     align-items: center;
     display: flex;
     justify-content: center;
+    height: 40px;
+    position: relative;
+    top: 68px;
+    padding: 5px;
 }
 
-.img {
+.sparkle {
     margin: 3px 3px 3px 3px;
 }
 
@@ -204,7 +212,7 @@ button {
 }
 
 footer {
-    background-color: black;
+    /*background-color: black;*/
     justify-content:center;
     position: relative;
     top: 10rem;
@@ -218,6 +226,7 @@ footer {
     .container {
       width: 100%;
       display: flex;
+      flex-wrap: wrap;
     }
   
     /* body styles the body of the document*/
@@ -227,56 +236,108 @@ footer {
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
+      background-repeat:no-repeat;
       border-radius: 10px;
       letter-spacing: 0.2em;
       font-size: 0.8em;
     }
+
+    header {
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
   
+    .sparkle {
+        width: 215px;
+        height: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
     nav {
       display: flex;
-      flex-direction: column;
+      flex-direction: wrap;
+      position: relative;
+      top: 50px;
     }
   
     ul, li {
-      margin: 0;
+      margin: 5px auto;
       padding: 0;
       list-style: none;
-      display: inline-block;
+      display: block;
       justify-content: center;
       align-items: center;
     }
   
     a {
       display: block;
-      font-size: 5.5px;
+      font-size: 12px;
+      align-items: center;
+      justify-content: center;
     }
   
     h1 {
-      font-size: 30px;
+        margin-right: 25px;
+        margin-left: 15px;
+        display: inline-block;
+        font-size: 25px;
+        position: relative;
+        top: 15px;
     }
   
     h2 {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      font-size: 30px;
+      font-size: 25px;
     }
   
     h3 {
-      font-size: 40px;
+      font-size: 35px;
+    }
+
+    @keyframes slideInRight {
+        from {
+            transform: translateX(-5px);
+        }
+        to{
+            transform: translateX(5px);
+        }
+    }
+
+    .animate--slow {
+        animation-duration: 17s;
+    }
+
+    .slideInRight {
+        animation-name: slideInRight;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
     }
   
     p {
       font-size: 15px;
     }
   
+    label {
+    color: white;
+    font-size: 10px;    
+    }   
+
     .search input {
       display: flex;
       font-size: 20px;
     }
   
     button {
-      font-size: 20px;
+      font-size: 12px;
+      position: relative;
+      top: 42px;
     }
   
     /*section is the container that gif images are displayed*/
@@ -293,7 +354,7 @@ footer {
       background-color: black;
       justify-content: center;
       position: relative;
-      top: 10rem;
+      top: 5.5rem;
       align-items: center;
       display: block;
     }
@@ -351,7 +412,7 @@ footer {
         transform: translateX(-1200px);
     }
     to{
-        transform: translateX(1200px);
+        transform: translateX(1600px);
     }
 }
 

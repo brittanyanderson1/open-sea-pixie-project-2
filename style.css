@@ -1,0 +1,421 @@
+html {
+  /*margin: 2px 2px 0px 2px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+  background-color: darkmagenta;
+  background-position: cover;
+  border: #83F52C 3px solid;
+  box-shadow: 0 0 5px 5px rgb(131, 245, 0), 0 0 10px 10px rgb(131, 245, 0), 0 0 15px 15px rgb(131, 245, 0), 0 0 20px 20px rgb(131, 245, 0);
+}
+
+/* body styles the body of the document*/
+body {
+  background-image: url(images/jellyfish.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 10px;
+  margin-top: 30px;
+  letter-spacing: 0.2em;
+  /*font-size: 0.8em;*/
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*title styles the html page title*/
+title {
+  font-family: "Rock Salt";
+}
+
+div {
+  margin: 0 auto;
+  padding: 0;
+  align-content: center;
+  /*background-color: rgba(226, 204, 226, 0.5);*/
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-between;
+}
+
+.sparkle {
+  margin: 0;
+  padding: 0;
+  height: 20px;
+  width: 1200px;
+}
+
+/*section is the container that gif images are displayed*/
+section {
+  display: inline-block;
+  align-items: center;
+  justify-content: right;
+  margin: 20px;
+  padding: 20px;
+  /*border: 3px solid green;*/
+  /*height: 150px;
+  width: 250px;*/
+}
+
+/*ul, li styles the unordered list items*/
+ul, li {
+  margin: 0;
+  padding: 8px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*a styles the unordered list items in the navigation bar*/
+a {
+  padding: 5px;
+  border: solid 2px purple;
+  box-shadow: 0px 0px 5px 5px rgba(110, 13, 208, 0.35);
+  border-radius: 8px 0 8px 0;
+  background: lightblue;
+  text-decoration: none;
+  color: black;
+  text-shadow: 0 0 5px #037A90, 0 0 10px #037A90, 0 0 15px #037A90, 0 0 20px #FF6600, 0 0 30px #FF6600, 0 0 40px #FF6600, 0 0 55px #FF6600, 0 0 75px #FF6600;
+  font-weight: 500;
+}
+
+/*h1 styles all elements attached to the title at that size*/
+h1 {
+  display: flex;
+  margin: 0 20rem 0 0;
+  align-content: center;
+  /*color: 0px 0px 5px 5px rgba(0,0,1,0.75);*/
+  text-shadow: 0 0 5px #037A90, 0 0 10px #037A90, 0 0 15px #037A90, 0 0 20px #FF6600, 0 0 30px #FF6600, 0 0 40px #FF6600, 0 0 55px #FF6600, 0 0 75px #FF6600;
+  font-family: "Rock Salt";
+  font-size: 65px;
+  color: #83F52C;
+  /*background-image: url(images/sparkle.png);*/
+}
+
+/* this is the element that gets the menu item beside the title*/
+nav {
+  /*margin: 0 0 0 5rem;*/
+  display: flex;
+  background: none;
+  justify-content: center;
+  font-size: 18px;
+  align-content: center;
+}
+
+h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px 0 8px 0;
+  padding: 0;
+  font-family: "Charm";
+  font-size: 50px;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #fff, 0 0 20px #FF6600, 0 0 30px #FF6600, 0 0 40px #FF6600, 0 0 55px #FF6600, 0 0 75px #FF6600;
+}
+
+h3 {
+  /*margin: 5rem;*/
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF6600, 0 0 30px #FF6600, 0 0 40px #FF6600, 0 0 55px #FF6600, 0 0 75px #FF6600;
+}
+
+p {
+  color: blue;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px;
+  padding: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(226, 214, 226, 0.3);
+  border-radius: 15px;
+}
+
+.search form {
+  display: flex;
+  margin: 0;
+  font-family: "Charm";
+  font-size: 25px;
+}
+
+.container {
+  padding: 100px 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /*border: 3px solid yellow;*/
+}
+
+input {
+  font-size: 35px;
+  font-family: "Charm";
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+label {
+  margin: 0 20px 0 0;
+  color: black;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF6600, 0 0 30px #FF6600, 0 0 40px #FF6600, 0 0 55px #FF6600, 0 0 75px #FF6600;
+  font-size: 30px;
+  font-family: "Charm";
+  display: center;
+}
+
+button {
+  font-family: "charm";
+  border: 2px solid purple;
+  border-radius: 5px;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  position: relative;
+  top: 68px;
+  padding: 5px;
+}
+
+.sparkle {
+  margin: 3px 3px 3px 3px;
+}
+
+.gif-image {
+  width: 195px;
+  height: 195px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 5px rgba(255, 0, 153, 0.75);
+}
+
+footer {
+  /*background-color: black;*/
+  justify-content: center;
+  position: relative;
+  top: 10rem;
+  align-items: center;
+  display: flex;
+}
+
+/*Media Query Mobile view 320px*/
+@media (max-width: 320px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* body styles the body of the document*/
+  body {
+    width: 100%;
+    background-image: url(images/jellyfish.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+  }
+  header {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .sparkle {
+    width: 215px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    display: flex;
+    flex-direction: wrap;
+    position: relative;
+    top: 50px;
+  }
+  ul, li {
+    margin: 5px auto;
+    padding: 0;
+    list-style: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  a {
+    display: block;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    margin-right: 25px;
+    margin-left: 15px;
+    display: inline-block;
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+  }
+  h2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  @keyframes slideInRight {
+    from {
+      transform: translateX(-5px);
+    }
+    to {
+      transform: translateX(5px);
+    }
+  }
+  .animate--slow {
+    animation-duration: 17s;
+  }
+  .slideInRight {
+    animation-name: slideInRight;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  p {
+    font-size: 15px;
+  }
+  label {
+    color: white;
+    font-size: 10px;
+  }
+  .search input {
+    display: flex;
+    font-size: 20px;
+  }
+  button {
+    font-size: 12px;
+    position: relative;
+    top: 42px;
+  }
+  /*section is the container that gif images are displayed*/
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+  }
+  footer {
+    background-color: black;
+    justify-content: center;
+    position: relative;
+    top: 5.5rem;
+    align-items: center;
+    display: block;
+  }
+}
+/* Utility Classes */
+.animate {
+  animation-duration: 0s;
+  animation-fill-mode: none;
+}
+
+.animate--infinite {
+  animation-iteration-count: infinite;
+}
+
+.animate--delay-1s {
+  animation-delay: 1s;
+}
+
+.animate--fast {
+  animation-duration: 0.6s;
+}
+
+.animate--slow {
+  animation-duration: 10s;
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+.rotate {
+  animation-name: rotate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(-1200px);
+  }
+  to {
+    transform: translateX(1600px);
+  }
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(800px);
+  }
+  to {
+    transform: translateX(-1200);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}/*# sourceMappingURL=style.css.map */

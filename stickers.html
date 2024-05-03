@@ -10,21 +10,19 @@
     crossorigin="anonymous">
     <!--CSS style sheet file-->
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Bad+Script&family=Barrio&family=Berkshire+Swash&family=Calligraffitti&family=Charm:wght@400;700&family=Ephesis&family=Kaushan+Script&family=Kranky&family=Lemonada:wght@300..700&family=Protest+Riot&family=Quando&family=Quintessential&family=Rammetto+One&family=Rancho&family=Ribeye+Marrow&family=Rock+Salt&family=Rubik+Doodle+Shadow&family=Sansita+Swashed:wght@300..900&family=Seaweed+Script&family=Special+Elite&family=Syncopate:wght@400;700&family=Tilt+Warp&family=Titan+One&display=swap" rel="stylesheet">
-    
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
 <!--HTML webpage title-->
 <title>Open Sea Pixie</title>
 </head>
 <body>
-    <!-- Document page container -->
-    <div class="container">
-
-    <!-- Page heading title -->
-    <div class="div-h1">
-    <h1 class="text-center">Open Sea Pixie</h1>
+    <!-- Document Page Container -->
+    <header>
+    <h1>Open Sea Pixie</h1>
         <nav>
             <ul>
                 <li><a href="/index.html">Gifs</a></li>
@@ -33,31 +31,34 @@
                 <li><a href="/help.html">Help</a></li>
             </ul>
         </nav>
-    </div>
+    </header>
 
-    <div class="mx-auto">
-        <img src="images/sparkle.png" alt="">
-    </div>
+    <!-- Document page container -->
+    <div class="container">
+        <div>
+            <img class="sparkle" src="images/sparkle.png" alt="Sparkle border image">
+        </div>
 
-    <div class="div-h2">
-        <h2 class="text-muted text-center">Sticker generator</h2>
-    </div>
+        <div>
+            <h2 class=" div-h2 text-muted">Sticker Generator</h2>
+        </div>
 
-    <div>
-        <img src="images/sparkle.png" alt="">
-    </div>
+         <div>
+            <img class="sparkle" src="images/sparkle.png" alt="Sparkle border image">
+        </div>
 
-    <!-- Search bar input form -->
-    <div>
-    <form class="text-input my-4 text-muted text-center">
-    <label: for="stickers">Cast a net and see what you can find:</label>
-    <input type="text" id="search" name="stickers" class="form-control">
-    </form>
-    <button class="text-muted" onclick="searchStickers()">Search</button>
+        <!-- Search bar input form -->
+        <div class="input">
+        <form class="text-input my-4 text-center">
+            <label for="stickers">Cast a net and see what you can find:</label>
+            <input type="text" id="search" name="stickers" class="form-control">
+        </form>
+        <button class="text-muted" onclick="searchStickers()">Search</button>
     </div>
 
     <!-- Gif image container -->
-    <section id="sticker-container" class="js-sticker-container poster-container shadow-lg rounded">
+    <section id="sticker-container" class="js-sticker-container shadow-lg rounded">
+    <!--<img src="(link unavailable)" alt="placeholder image 1000x600">--> 
     </section>
 
     <!-- External script for Open Sea Pixie -->
@@ -66,6 +67,7 @@
 <script src="./app.js"></script>
 
 <!-- Page Footer-->
+
 <footer><img src="/images/Animated Logos/PoweredBy_200_Horizontal_Light-Backgrounds_With_Logo.gif" alt="powered by Giphy badge"></footer>
 </div>
 </body>
