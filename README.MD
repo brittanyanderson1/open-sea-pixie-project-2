@@ -5,7 +5,7 @@ Brittany Anderson
 Opean Sea Pixie is a online search engine where visitors can explore countless video clips, stickers and images.
 
 #### Details of Use/Fucntionality
-Keywords or phrases are entered into the search bar on the Open Sea Pixie website then, by clicking on the susbmit button 25 animated images in the form of stickers and video clips and are displayed use of the Giphy API. 
+Keywords or phrases are entered into the search bar on the Open Sea Pixie website then, by clicking on the submit button 25 animated images in the form of stickers and video clips and are displayed by the use of the Giphy API. 
 
 
 #### Technologies Used
