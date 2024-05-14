@@ -14,6 +14,7 @@ Keywords or phrases are entered into the search bar on the Open Sea Pixie websit
 - Giphy API Key
 - CSS
 - SCSS
+- Validator.W3
 - Bootstrap
 - Google fonts
 - draw.io
